@@ -1,4 +1,7 @@
-function seed() {}
+function seed(...arguments) {
+  let arr = [...arguments];
+  return arr
+}
 
 function same([x, y], [j, k]) {}
 
